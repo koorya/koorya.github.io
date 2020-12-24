@@ -2,7 +2,16 @@
 layout: default
 title: gphoto public album
 ---
+
 <h1>{{ page.title }}</h1>
-<ul class="posts">
-<li>some item</li>
-</ul>
+<div id="image_container">no load</div>
+<script>
+$("#image_container").html("hello world");
+$.get(
+    "somepage.php",
+    {paramOne : 1, paramX : 'abc'},
+    function(data) {
+       $("#image_container").html(data);
+    }
+);
+</script>
