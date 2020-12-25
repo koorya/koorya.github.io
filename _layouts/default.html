@@ -1,31 +1,36 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-				<li><a href="/test_page">Test page</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav>
+
+			<div class="logo" ></div>
+			<div>
+
+				<h1>Федерация Новосибирской области <br /> по конькобежному спорту</h1>
+				<ul>
+					<li><a href="/">Главная</a></li>
+					<li><a href="/schedule">Расписание</a></li>
+					<li><a href="/staff">Коллектив</a></li>
+					<li><a href="/events">События</a></li>
+					<li><a href="/blog">Статьи</a></li>
+					<li><a href="/achivments">Достижения</a></li>
 				</ul>
-			</footer>
-		</body>
-	</html>
+			</div>
+		</nav>
+		<div class="field_background"></div>
+    <div class="container">{{ content }}</div>
+    <!-- /.container -->
+    <footer>
+      <ul>
+        <li><a href="mailto:speedskating-nsk@gmail.com">email</a></li>
+        <li><a href="https://vk.com/short_track_nsk">Мы в Vk</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
