@@ -33,7 +33,7 @@ nav {
 nav div {
   background: #fff;
   /* linear-gradient(to right, #fff, darkgray); */
-  width: 81%;
+  width: 79%;
   height: 100%;
   float: left;
 
@@ -43,7 +43,7 @@ nav div.logo {
   /* opacity: 0.1; */
   /* height: 150px; */
   background: url("/sources/logo_150.png") no-repeat center;
-  width: 19%;
+  width: 21%;
   float: left;
   min-height: 100%;
   background-color: #fff;
@@ -65,7 +65,7 @@ h1 {
 nav ul li,
 footer ul li {
   display: inline;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 a {
   text-decoration: none;
