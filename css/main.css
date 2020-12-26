@@ -1,8 +1,11 @@
 body {
-  margin: 60px auto;
+  margin: auto;
   margin-top: 0px;
   margin-bottom: 0px;
+  /* padding: 20px; */
   width: 60%;
+  min-width: 1050px;
+
   background-color: darkgray;
   color: #333;
 }
@@ -46,11 +49,17 @@ nav div.logo {
   background-color: #fff;
   border-radius: 20px 0 0 0px;
 }
+
 nav h1 {
   color: #081225;
   margin: 0px;
   padding-top: 32px;
   height: 128px;
+}
+
+h1 {
+  font-size: 2.7em;
+  font-family: "Helvetica", "Arial", "Sans-Serif";
 }
 
 nav ul li,
@@ -64,10 +73,6 @@ a {
 }
 a:hover {
   text-decoration: underline;
-}
-h1 {
-  font-size: 3em;
-  font-family: "Helvetica", "Arial", "Sans-Serif";
 }
 p {
   font-size: 1.2em;
