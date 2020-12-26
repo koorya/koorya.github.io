@@ -9,25 +9,27 @@
   </head>
   <body>
     <nav>
+      <div class="logo"></div>
+      <div>
+        <h1>
+          Федерация Новосибирской области <br />
+          по конькобежному спорту
+        </h1>
+        <ul>
+          <li><a href="/">Главная</a></li>
+          <li><a href="/schedule">Расписание</a></li>
+          <li><a href="/calendar">Календарь соревнований</a></li>
+          <li><a href="/staff">Коллектив</a></li>
+          <li><a href="/events">События</a></li>
+          <li><a href="/blog">Статьи</a></li>
+          <li><a href="/doc">Документы</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="field_background"></div>
 
-			<div class="logo" ></div>
-			<div>
-
-				<h1>Федерация Новосибирской области <br /> по конькобежному спорту</h1>
-				<ul>
-					<li><a href="/">Главная</a></li>
-					<li><a href="/schedule">Расписание</a></li>
-					<li><a href="/calendar">Календарь соревнований</a></li>
-					<li><a href="/staff">Коллектив</a></li>
-					<li><a href="/events">События</a></li>
-					<li><a href="/blog">Статьи</a></li>
-					<li><a href="/doc">Документы</a></li>
-
-				</ul>
-			</div>
-		</nav>
-		<div class="field_background"></div>
-    <div class="container">{{ content }}</div>
+    
+    <div class="container"><h2>{{page.header}}</h2>{{ content }}</div>
     <!-- /.container -->
     <footer>
       <ul>
